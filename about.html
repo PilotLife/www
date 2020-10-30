@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='css/style.css'>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+
+        <title>PilotLife.eu</title>
+    </head>
+
+    <body>
+        <nav class="uk-navbar-container uk-light" uk-navbar>
+
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <img src="/images/64x64.png">
+                </ul>
+            </div>
+
+            <div class="uk-navbar-right">
+        
+                <ul class="uk-navbar-nav">
+                    <li><a href="/index.html">Home</a></li>
+                    <li class="uk-active"><a href="#">About</a></li>
+                    <li><a href="/community.html">Community</a></li>
+                </ul>
+        
+            </div>
+        </nav>
+
+        <div class="uk-container uk-light uk-text-center uk-margin-xlarge-top" id="container">
+           <h1>PilotLife.eu</h1>
+           <p class="uk-text-large">Content is coming soon!</p>
+        </div>
+
+
+        <nav class="uk-navbar-container uk-text-uppercase uk-text uk-position-bottom" uk-navbar>
+
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <a class="uk-link-text no-text-decoration" href="http://www.pilotlife.eu">© <span id="copyright-year"></span> PilotLife.eu</a>
+                </ul>
+            </div>
+
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <a class="uk-link-text no-text-decoration" href="http://www.pilotlife.eu">Legal Notice</a>
+                    &ThickSpace;
+                    <a class="uk-link-text no-text-decoration" href="http://www.pilotlife.eu">Privacy Policy</a>
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <script>
+            document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>

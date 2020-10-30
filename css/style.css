@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+
+* {
+    background-color: #373838 !important;
+}
+
+.no-text-decoration:hover {
+    text-decoration: none;
+}
+
+.uk-navbar-nav:hover > li > a {
+    color: rgba(81, 81, 81, 0.4);
+    transition: color 0.3s ease-in 0s;
+}
